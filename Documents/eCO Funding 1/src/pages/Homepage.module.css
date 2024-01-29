@@ -1,0 +1,75 @@
+.homeContents {
+  width: 90rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5rem;
+}
+.cVMApproved {
+  width: 21.25rem;
+  position: relative;
+  height: 7.75rem;
+  object-fit: cover;
+}
+.asSociedadesEmpresrias,
+.plataformaAutorizadaPela {
+  width: 57.56rem;
+  position: relative;
+  display: inline-block;
+  height: 2.31rem;
+  flex-shrink: 0;
+}
+.asSociedadesEmpresrias {
+  width: 58.38rem;
+  font-size: var(--font-size-xs);
+}
+.innerSubscribeFrame {
+  height: 5.25rem;
+  width: 58.38rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.parentSubscriptionArea {
+  height: 12.31rem;
+  width: 89.88rem;
+  border-radius: var(--br-41xl);
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 2.31rem 4.81rem 2.25rem;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.cVMApprovedPlatform,
+.homepage,
+.parentSubscriptionArea {
+  display: flex;
+  justify-content: flex-start;
+}
+.cVMApprovedPlatform {
+  width: 89.88rem;
+  height: 14.5rem;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 2.19rem;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: #efefef;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+}
+.homepage:hover {
+  background: linear-gradient(#fff, #fff), #87550a;
+}

@@ -1,0 +1,135 @@
+.aEconomiaRegenerativa,
+.valorizarFinanceiramenteO {
+  position: relative;
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+.aEconomiaRegenerativa {
+  margin: 0;
+  width: 30.75rem;
+  height: 19.44rem;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.valorizarFinanceiramenteO {
+  width: 40.69rem;
+  height: 3.94rem;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-roboto);
+}
+.stayDetails,
+.stayDetailsRows {
+  height: 26rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stayDetailsRows {
+  width: 40.69rem;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.stayDetails {
+  width: 43.28rem;
+  flex-direction: row;
+  position: relative;
+}
+.hotelCard,
+.hotelCard1 {
+  height: 26.06rem;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.hotelCard {
+  width: 43.28rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-beige);
+  border: 1px solid var(--color-whitesmoke-100);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0;
+}
+.hotelCard3:hover,
+.hotelCard:hover {
+  background-color: var(--color-gainsboro-200);
+  cursor: pointer;
+}
+.hotelCard1 {
+  width: 44.78rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+}
+.invistanofuturo1 {
+  margin: 0;
+}
+.corporateesg,
+.invistanofuturo {
+  height: 1.63rem;
+  position: relative;
+  letter-spacing: 0.46px;
+  line-height: 1.63rem;
+  text-transform: uppercase;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.invistanofuturo {
+  width: 11.31rem;
+  font-weight: 500;
+}
+.corporateesg {
+  width: 9.88rem;
+}
+.hotelCard2,
+.hotelCard3 {
+  height: 26.06rem;
+  width: 44.78rem;
+  display: flex;
+  flex-direction: row;
+}
+.hotelCard3 {
+  border-radius: var(--br-3xs);
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-smi);
+  box-sizing: border-box;
+  gap: var(--gap-4xl);
+  background-image: url(/public/hotel-card@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.hotelCard2 {
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--font-size-mini);
+  color: var(--studio-darkmode-allwhite-ffffff);
+  font-family: var(--font-montserrat);
+}
+.hotelCards,
+.popularStays {
+  width: 89.56rem;
+  display: flex;
+}
+.hotelCards {
+  height: 26.06rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.popularStays {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-poppins);
+}

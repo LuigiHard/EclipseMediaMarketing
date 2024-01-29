@@ -1,0 +1,56 @@
+.footerSection,
+.neutralizarEmissoesDe {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 2.13rem;
+  font-weight: 700;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.footerSection {
+  height: 3.31rem;
+  width: 2.19rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.neutralizarEmissoesDe {
+  height: 2.13rem;
+  width: 29rem;
+}
+.holidayDetails,
+.neutralizarEmissoesDe,
+.recCard1,
+.textFormTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textFormTitle {
+  width: 30.63rem;
+  flex-direction: row;
+}
+.holidayDetails,
+.recCard1 {
+  box-sizing: border-box;
+}
+.holidayDetails {
+  width: 33.81rem;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-lightgray);
+  border: 1px solid var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-base);
+}
+.recCard1 {
+  width: 34.81rem;
+  flex-direction: row;
+  padding: 0 var(--padding-base);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

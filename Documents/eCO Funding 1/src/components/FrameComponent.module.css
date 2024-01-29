@@ -1,0 +1,401 @@
+.paragraphChild {
+  width: 90.13rem;
+  position: relative;
+  background-color: var(--color-gray-300);
+  backdrop-filter: blur(30px);
+  height: 54.5rem;
+  display: none;
+}
+.comoFunciona,
+.modeloFullService {
+  position: relative;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  z-index: 1;
+}
+.comoFunciona {
+  margin: 0;
+  width: 90.13rem;
+  height: 3.69rem;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: var(--font-montserrat);
+  white-space: nowrap;
+}
+.modeloFullService {
+  height: 4.31rem;
+  width: 59.19rem;
+  text-transform: capitalize;
+  flex-shrink: 0;
+}
+.form {
+  width: 59.19rem;
+  height: 5.44rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.textIcon {
+  width: 6.74rem;
+  position: relative;
+  height: 3.55rem;
+  object-fit: cover;
+}
+.neutralizarEmissesDe {
+  width: 15.31rem;
+  height: 1.31rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.negociarComprarE {
+  width: 14.28rem;
+  height: 4.55rem;
+  position: relative;
+  font-size: var(--font-size-mini-4);
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.card,
+.col1 {
+  display: flex;
+  align-items: center;
+}
+.card {
+  height: 11.38rem;
+  width: 18rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  backdrop-filter: blur(30px);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-3xl) var(--padding-mid)
+    var(--padding-2xl);
+  box-sizing: border-box;
+}
+.col1 {
+  height: 11.44rem;
+  width: 20rem;
+  flex-direction: row;
+  justify-content: center;
+  font-size: var(--font-size-lg);
+}
+.icon {
+  width: 6.96rem;
+  position: relative;
+  height: 3.66rem;
+  object-fit: cover;
+}
+.cadastrarProjetoAmbiental {
+  width: 15.44rem;
+  height: 1.38rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.projetosQueReduzam {
+  width: 14.74rem;
+  height: 4.7rem;
+  position: relative;
+  font-size: var(--font-size-mini-9);
+  font-family: var(--font-montserrat);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.card1,
+.col2 {
+  display: flex;
+  align-items: center;
+}
+.card1 {
+  height: 11.38rem;
+  width: 18rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  backdrop-filter: blur(30px);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-2xl) var(--padding-smi)
+    var(--padding-xl);
+  box-sizing: border-box;
+}
+.col2 {
+  height: 11.44rem;
+  width: 20rem;
+  flex-direction: row;
+  justify-content: center;
+  font-size: var(--font-size-lg-6);
+}
+.icon1 {
+  width: 6.93rem;
+  position: relative;
+  height: 3.64rem;
+  object-fit: cover;
+}
+.ferramentaDeClculo,
+.gestoDeEmisses {
+  position: relative;
+  display: inline-block;
+}
+.gestoDeEmisses {
+  width: 15.41rem;
+  letter-spacing: 0.02em;
+}
+.ferramentaDeClculo {
+  width: 14.66rem;
+  height: 4.68rem;
+  font-size: var(--font-size-mini-8);
+  font-family: var(--font-montserrat);
+  text-align: center;
+  flex-shrink: 0;
+}
+.card2,
+.col3 {
+  display: flex;
+  align-items: center;
+}
+.card2 {
+  height: 11.38rem;
+  width: 18rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  backdrop-filter: blur(30px);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-2xl) var(--padding-9xs)
+    var(--padding-xl);
+  box-sizing: border-box;
+}
+.col3 {
+  height: 11.44rem;
+  width: 20rem;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-lg-5);
+}
+.icon2 {
+  width: 6.99rem;
+  position: relative;
+  height: 3.61rem;
+  object-fit: cover;
+}
+.calculadorasEFerramentas {
+  width: 15.36rem;
+  position: relative;
+  letter-spacing: 0.02em;
+  display: inline-block;
+}
+.apisECalculadoras {
+  width: 14.55rem;
+  height: 4.64rem;
+  position: relative;
+  font-size: var(--font-size-mini-7);
+  font-family: var(--font-montserrat);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.card3,
+.col4 {
+  display: flex;
+  align-items: center;
+}
+.card3 {
+  height: 11.38rem;
+  width: 18rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  backdrop-filter: blur(30px);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+}
+.col4 {
+  height: 11.44rem;
+  width: 20rem;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-lg-3);
+}
+.icon3 {
+  width: 6.72rem;
+  position: relative;
+  height: 3.53rem;
+  object-fit: cover;
+}
+.apoiarASua,
+.vamosDesenvolverJuntos {
+  position: relative;
+  display: inline-block;
+}
+.apoiarASua {
+  width: 12.38rem;
+  letter-spacing: 0.02em;
+}
+.vamosDesenvolverJuntos {
+  width: 15.18rem;
+  height: 4.54rem;
+  font-size: var(--font-size-mini-3);
+  font-family: var(--font-montserrat);
+  text-align: center;
+  flex-shrink: 0;
+}
+.card4,
+.col5 {
+  display: flex;
+  align-items: center;
+}
+.card4 {
+  height: 11.38rem;
+  width: 18rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  backdrop-filter: blur(30px);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-6xs);
+  box-sizing: border-box;
+}
+.col5 {
+  height: 11.44rem;
+  width: 20rem;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+}
+.icon4 {
+  width: 6.72rem;
+  position: relative;
+  height: 3.53rem;
+  object-fit: cover;
+}
+.certificarAAo,
+.seloDeNeutralizao {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.seloDeNeutralizao {
+  width: 16.4rem;
+  letter-spacing: 0.02em;
+  height: 2.46rem;
+}
+.certificarAAo {
+  width: 14.22rem;
+  height: 4.53rem;
+  font-size: var(--font-size-mini-3);
+  font-family: var(--font-montserrat);
+}
+.card5,
+.cardsContainer,
+.col6 {
+  display: flex;
+  align-items: center;
+}
+.card5 {
+  height: 11.38rem;
+  width: 18rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  backdrop-filter: blur(30px);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-smi) var(--padding-6xs)
+    var(--padding-xs);
+  box-sizing: border-box;
+}
+.cardsContainer,
+.col6 {
+  height: 11.44rem;
+  width: 20rem;
+  flex-direction: row;
+  justify-content: center;
+}
+.cardsContainer {
+  width: 60rem;
+  height: 24.5rem;
+  flex-wrap: wrap;
+  z-index: 1;
+  font-size: var(--font-size-mid-9);
+}
+.image,
+.paragraph {
+  width: 90.13rem;
+  display: flex;
+  box-sizing: border-box;
+}
+.paragraph {
+  height: 54.5rem;
+  background-color: var(--color-gray-300);
+  backdrop-filter: blur(30px);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-147xl) 0 var(--padding-137xl);
+  gap: var(--gap-7xs);
+}
+.image {
+  height: 53.94rem;
+  border-radius: var(--br-41xl);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0;
+  background-image: url(/public/image@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.container,
+.containerWrapper,
+.popDestinationsMain {
+  height: 54.31rem;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.popDestinationsMain {
+  width: 90.13rem;
+  border-radius: var(--br-41xl);
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  backdrop-filter: blur(30px);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-10xs) 0;
+}
+.container,
+.containerWrapper {
+  width: 90.06rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.containerWrapper {
+  width: 90rem;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--studio-darkmode-allwhite-ffffff);
+  font-family: var(--font-roboto);
+}
