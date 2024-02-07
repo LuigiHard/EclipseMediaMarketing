@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Eclipse Media Marketing</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="js/carouselfisico.js"></script>
+        <script src="js/carouselsocial.js"></script>
+        <script type="module" src="js/main.js"></script>
+        <script src="https://api.web3forms.com/client.js"></script>
+        <script src="/js/scroll.js"></script>
+       <script>
+
+    let currentIndexx = 0;
+    const imagesToShow = 3;
+    const totalImages = 21; 
+    const imageWidth = 1000; 
+    const marginBetweenImages = 100; 
+    
+    document.getElementById('previousButton').addEventListener('click', () => {
+      if (currentIndexx === 0) {
+        currentIndexx = 0; // Go to the last set of images
+      } else {
+        currentIndexx--;
+      }
+      updateCarousel();
+    });
+
+    document.getElementById('nexttButton').addEventListener('click', () => {
+      if (currentIndexx >= totalImages - imagesToShow) {
+        currentIndex = 0; // Loop back to the first image
+      } else {
+        currentIndexx++;
+      }
+      updateCarousel();
+    });
+
+    function updateCarousel() {
+      const offset = currentIndexx * -(imageWidth + marginBetweenImages);
+      document.getElementById('carousell').style.transform = `translateX(${offset}px)`;
+    }
+</script>
+    </head>
+    <body>
+      <div style="position: relative;" class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-custom" style="position: absolute;"> 
+            <div class="container px-5">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Objetivos">Nossos Objetivos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#servico">O que Fazemos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#quemsomos">Quem Somos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Experiencias">Experiencias</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Contato">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/eclipse__marketing/">Instagram</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://w.app/B37gJ0"><img style="height: 50px;" src="assets/Whatsapp.webp"/></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="py-5 d-flex align-items-center " style="background-image: url(assets/primeira-parte0.png); height: 152vh;width: 100vw; background-color: black; background-size: cover; background-repeat: no-repeat;">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="text-center my-5">
+                            <img src="/assets/logo-eclipse-white-10.png" style="z-index: 10;"  class="img-fluid"/>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        </div>
+        <!-- Features section-->
+        <section class="py-5 " id="Objetivos" >
+            <div class="container px-5 my-5" >
+                <div class="row gx-5 ">
+                    <div class="col-lg-4 mb-5 mb-lg-0 text-center">
+                        <div class="feature text-white rounded-3 mb-3"><img src="/assets/olho.svg" style="height: 300px; margin-top: 6em;"/></div>
+                        <h2 class="h4 fw-bolder text-white">Elevação da Identidade de marca e reconhecimento visual</h2>
+                        <p class="text-white mt-2">Criar ou reforçar a identidade visual da marca, tornando-a distinta e memorável.<br><br>
+                            Desenvolver uma estética visual coesa e atraente para todos os elementos de marketing, como logotipos, material gráfico e conteúdo online (redes sociais, marketplace, Youtube, entre outras).<br>
+                           <br> Aumentar o reconhecimento da marca por meio de estratégias visuais impactantes, garantindo que ela se destaque em um mercado competitivo..</p>
+                        
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0 text-center" >
+                        <div class="feature  text-white rounded-3 mb-3"><img src="/assets/grafico.svg" style="height: 300px;margin-top: 6em;" /></div>
+                        <h2 class="h4 fw-bolder text-white">Engajamento e Crescimento nas Redes Sociais </h2>
+                        <p class="text-white mt-2">Criar uma estratégia de mídias sociais envolvente para aumentar o engajamento do público.<br><br>
+                            Desenvolver conteúdo visual atraente e relevante para as redes sociais.<br><br>
+                            Aumentar o número de seguidores e transformar seguidores em clientes leais por meio de táticas de marketing direcionadas (tráfego pago para Instagram, Facebook, Google, entre outras).</p>
+                        
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-lg-0 text-center">
+                        <div class="feature  text-white rounded-3 mb-3"><img src="/assets/alvo.svg" style="height: 300px;margin-top: 6em;" /></div>
+                        <h2 class="h4 fw-bolder text-white">Maximização da Experiência do Usuário e Conversões
+
+                        </h2>
+                        <p class="text-white mt-2">Aprimorar a experiência do usuário em todos os canais digitais, garantindo que os visitantes tenham uma jornada positiva.<br><br>
+                            Aumentar as taxas de conversão por meio de design criativo e estratégias de marketing direcionadas.<br><br>
+                            Implementar testes e otimizações contínuas para melhorar o desempenho e alcançar resultados mensuráveis.</p>
+                       
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing section-->
+        <section class=" py-5" id="servico">
+            <div class="container px-5 my-5" style="background-image: url(assets/);">
+                <div class="text-center mb-5">  
+                    <h2 class="fw-bolder text-white">O QUE FAZEMOS</h2>
+                    
+                </div>
+                <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+                  <button style="margin-top: 2300px; margin-left: 200px;" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button style="margin-top: 2300px; margin-right: 200px;" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      
+                    </button>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="card">
+                            <img src="carousel1/estrategiamarketing.svg" class="d-block w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Estratégia de Marketing</h5>
+                                <p class="card-text">Desenvolvimento de planos de marketing personalizados.<br><br>
+                                  &bull; Definição de metas e objetivos de marketing.<br><br>
+                                    
+                                  &bull; Identificação do público-alvo e análise de mercado.</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <img src="carousel1/designgrafico.svg" class="d-block w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Design Gráfico e Identidade Visual:</h5>
+                                <p class="card-text ">
+                                  &bull;  Criação de logotipo<br><br>
+                                  
+                                  &#x2022; Paleta de cores<br><br>
+                                  
+                                  &#x2022; Banco de imagens<br><br>
+                                  
+                                  &#x2022; Elementos gráficos separados<br><br>
+                                  
+                                  &#x2022; Tipografia primária e secundária<br><br>
+                                  
+                                  &#x2022; Criação de redes sociais e Google<br><br>
+                                  
+                                  &#x2022; Modelos para posts e stories<br><br>
+                                  
+                                  &#x2022; Ícones para Destaques<br><br>
+                                  
+                                  &#x2022; Cartões de visita <br><br>
+                                  
+                                  &#x2022; E muito mais.</p>
+                                
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <img src="carousel1/marketingconteudo.svg" class="d-block w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Marketing de Conteúdo</h5>
+                                <p class="card-text">&bull; Criação de conteúdo de alta qualidade e relevante para atrair e envolver o público, incluindo posts, vídeos e muito mais.</p>
+                                
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <img src="carousel1/marketingdigital.svg" class="d-block w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Marketing Digital</h5>
+                                <p class="card-text">&bull; Marketing de mídia social para aumentar o engajamento e a visibilidade.<br><br>
+
+                                  &bull; Publicidade online, como anúncios pagos no Google Ads, Instagram e Facebook (tráfego pago).</p>
+                                
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <img src="carousel1/webdesign.svg" class="d-block w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Web Design e Desenvolvimento:</h5>
+                                <p class="card-text">&bull; Criação de sites otimizados para conversões e experiência do usuário.<br><br>
+
+                                  &bull; Desenvolvimento de landing pages    (banners).</p>
+                                
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <img src="carousel1/SEO.svg" class="d-block w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">SEO <br>
+                                  (Otimização de Mecanismos de Busca)</h5>
+                                <p class="card-text">&bull; Otimização de sites para melhorar sua classificação nos resultados de busca.<br><br>
+
+                                  &bull; Pesquisa de palavras-chave para aumentar a visibilidade online (hashtags).<br><br>
+                                  
+                                  &bull; Criação de estratégias de link-building (linktree).</p>
+                                
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <img src="carousel1/analisedados.svg" class="d-block w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Análise de Dados e Métricas</h5>
+                                <p class="card-text">&bull; Monitoramento do desempenho das campanhas de marketing.
+
+                                     &bull; Análise de dados para tomar decisões informadas e ajustar estratégias.</p>
+                                
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <img src="carousel1/automacaomarketing.svg" class="d-block w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Automação de Marketing</h5>
+                                <p class="card-text">&bull; Gestão de canais de distribuição de conteúdo, como robô de WhatsApp Automatizado e personalizado.<br><br>
+
+                                  &bull; Configuração de fluxos de trabalho automatizados.</p>
+                                
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <img src="carousel1/marketingfisico.svg" class="d-block w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Marketing físico</h5>
+                                <p class="card-text">&bull; Desenvolvimento de planos de marketing personalizados.<br><br>
+
+                                  &bull; Definição de metas e objetivos de marketing.<br><br>
+                                  
+                                  &bull; Identificação do público-alvo e análise de mercado.</p>
+                                
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="card">
+                            <img src="carousel1/ConsultoriaIcon.svg" class="d-block w-100" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Consultoria</h5>
+                                <p class="card-text">&bull; Reforçar a identidade visual da marca, tornando-a distinta e memorável.<br><br>
+
+                                  &bull; Desenvolver uma estética visual coesa e atraente para todos os elementos de marketing, como logotipos, material gráfico e conteúdo online.<br><br>
+                                  
+                                  &bull; Aumentar o reconhecimento da marca por meio de estratégias visuais impactantes, garantindo que ela se destaque em um mercado competitivo.</p>
+                                
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                    
+                  </div>
+                </div>
+
+
+                </section>
+        <section class="py-5" id="quemsomos">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5" >
+                    <h2 class="fw-bolder text-white">QUEM SOMOS</h2>
+                    <p class="lead mb-0 text-white">Bem-vindos à Eclipse Media & Marketing, uma agência ágil e dedicada! Optamos por atender um número limitado de clientes, pois isso nos permite proporcionar um serviço excepcionalmente personalizado e atento. Nosso portifólio abrange estratégias de comunicação inovadoras que integram o melhor do mundo digital e tradicional. Na Eclipse, cada cliente é único, e nossa missão é construir parcerias fortes, baseadas na transparência e colaboração proporcionando soluções criativas e eficazes para a construção de marca e performance de vendas.</p>
+                    <h3 class="fw-bolder text-white mt-5">Eclipse Conectando ideias, impulsionando negócios: A sua marca, o nosso sucesso!</h3>
+                </div>
+                
+        </section>
+        <section class="py-5">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5" >
+                    <h2 class="fw-bolder text-white" >NOSSA EQUIPE</h2>
+                    <p class="lead mb-0 text-white">DIRETOR DE CRIAÇÃO SÊNIOR <br>
+                        DESIGNERS ASSISTENTES <br>
+                        ESPECIALISTA EM MARKETING DIGITAL <br>
+                        ATENDIMENTO E GESTOR DE PROJETOS SÊNIOR<br>
+                        REDATOR SÊNIOR<br>
+                        PROGRAMADOR</p>
+                </div>
+                
+        </section>
+        <section class="py-5">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5" >
+                    <h2 class="fw-bolder text-white" >PORQUE ECLIPSE?
+                    </h2>
+                    <p class="lead mb-0 text-white">Pois somos uma agência de marketing que não apenas chama a atenção, mas redefine a forma como as marcas impactam o mundo. A metáfora do eclipse representa o momento em que todos param para admirar algo extraordinário. Da mesma forma, a Eclipse busca criar campanhas que fazem as pessoas pararem, se maravilharem e se envolverem de maneiras que nunca imaginaram. É mais do que marketing, é uma revolução que redefine a experiência do cliente e estabelece um novo padrão de impacto no mercado.</p>
+                </div>
+                
+        </section>
+        <section id="Experiencias">
+            <div class="container w-100% h-100%" > 
+                <h1 style=" font-size: xxx-large;
+                            text-align: center;
+                            justify-content: center;
+                            color: white;">EXPERIÊNCIAS</h1>
+                <h1 style=" font-size: xx-large;
+                text-align: center;
+                justify-content: center;
+                color: white;">SOCIAL MEDIA</h1>
+                <div id="carouselredes" class="d-flex justify-content-center">
+                    <div id="carousel2" class="d-flex flex-row align-items-center">
+                        <!-- Dynamic Image Elements will be inserted here via JavaScript -->
+                    </div>
+                </div>
+                    <div class="text-center mt-3">
+                      <button id="prev" class="button-prev" style="border: none; background-color: transparent;"><svg viewBox="0 0 60 60" width="30" height="60">
+                        <path opacity="0.9" d="M2.22118 30.6169C1.12395 29.8182 1.12395 28.1818 2.22118 27.3831L31.3229 6.19805C32.6448 5.2358 34.5 6.18001 34.5 7.81499V30.185C34.5 51.82 32.6448 52.7642 31.3229 51.8019L2.22118 30.6169Z" fill="#D9D9D9"></path>
+                      </svg> </button>
+                    <button id="next" class="button-next" style="border: none; background-color: transparent;"><svg viewBox="0 0 60 60" width="30" height="60"><path opacity="0.9" d="M43.7788 27.3831C44.8761 28.1818 44.8761 29.8182 43.7788 30.6169L14.6771 51.8019C13.3552 52.7642 11.5 51.82 11.5 30.185V7.81499C11.5 6.18001 13.3552 5.23581 14.6771 6.19806L43.7788 27.3831Z" fill="#D9D9D9"></path></svg></button>
+                    </div>
+                  </div>
+                <script>
+                      document.getElementById('prev').addEventListener('click', () => {
+                        images.unshift(images.pop());
+                        updateCarousel();
+                      });
+                    
+                      document.getElementById('next').addEventListener('click', () => {
+                        images.push(images.shift());
+                        updateCarousel();
+                      });
+                     
+                    
+                    </script>
+                    <script>
+// Assuming your initializeCarousel function is already defined above or included from an external JS file
+                    initializeCarousel('./carousel', 54, 'carousel2', 'prev', 'next');
+                    </script>
+
+                </div>
+
+           
+            <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                <!-- Previous Button -->
+                <button id="previousButton" style="padding: 0 32px; z-index: 10; background: none; border: none;">
+                    <svg viewBox="0 0 60 60" width="30" height="60">
+                        <path opacity="0.9" d="M2.22118 30.6169C1.12395 29.8182 1.12395 28.1818 2.22118 27.3831L31.3229 6.19805C32.6448 5.2358 34.5 6.18001 34.5 7.81499V30.185C34.5 51.82 32.6448 52.7642 31.3229 51.8019L2.22118 30.6169Z" fill="#D9D9D9"></path>
+                    </svg>
+                </button>
+              
+                <div style="display: flex; overflow: hidden; width: calc(3 * 300px + 2 * 100px); gap: 100px;">
+                  <!-- Inner Carousel -->
+                  <div id="carousell" style="display: flex; transition: transform 0.5s ease; padding: 0 4rem;">
+                            <img src="/carousel3/image1.png" alt="Image 1" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image2.png" alt="Image 2" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image3.png" alt="Image 3" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />   
+                            <img src="/carousel3/image4.png" alt="Image 4" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image5.png" alt="Image 5" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image6.png" alt="Image 6" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image7.png" alt="Image 7" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image8.png" alt="Image 8" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image9.png" alt="Image 9" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image10.png" alt="Image 10" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image11.png" alt="Image 11" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image12.png" alt="Image 12" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image13.png" alt="Image 13" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image14.png" alt="Image 14" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image15.png" alt="Image 15" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image16.png" alt="Image 16" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image17.png" alt="Image 17" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image18.png" alt="Image 18" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image19.png" alt="Image 19" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image20.png" alt="Image 20" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                            <img src="/carousel3/image21.png" alt="Image 21" style="width: 300px; height: 300px; flex-shrink: 0; padding: 30px;" />
+                        </div>
+                </div>
+              
+                <!-- Next Button -->
+                <button id="nexttButton" style="z-index: 10; padding: 0 32px; background: none; border: none;">
+                    <svg viewBox="0 0 60 60" width="30" height="60">
+                        <path opacity="0.9" d="M43.7788 27.3831C44.8761 28.1818 44.8761 29.8182 43.7788 30.6169L14.6771 51.8019C13.3552 52.7642 11.5 51.82 11.5 30.185V7.81499C11.5 6.18001 13.3552 5.23581 14.6771 6.19806L43.7788 27.3831Z" fill="#D9D9D9"></path>
+                    </svg>
+                </button>
+              </div>
+              <script>
+
+                let currentIndex1 = 0;
+                const imagesToShow1 = 3;
+                const totalImages1 = 21; 
+                const imageWidth1 = 1000; 
+                const marginBetweenImages1 = 100; 
+                
+                document.getElementById('previousButton').addEventListener('click', () => {
+                  if (currentIndexx === 0) {
+                    currentIndexx = 0; // Go to the last set of images
+                  } else {
+                    currentIndexx--;
+                  }
+                  updateCarousel();
+                });
+            
+                document.getElementById('nexttButton').addEventListener('click', () => {
+                  if (currentIndexx >= totalImages - imagesToShow) {
+                    currentIndex = 0; // Loop back to the first image
+                  } else {
+                    currentIndexx++;
+                  }
+                  updateCarousel();
+                });
+            
+                function updateCarousel() {
+                  const offset = currentIndexx * -(imageWidth + marginBetweenImages);
+                  document.getElementById('carousell').style.transform = `translateX(${offset}px)`;
+                }
+            </script>
+        </section>
+        <section class="py-5" id="contato">
+            <div class="container-fluid px-5 my-5 px-5" style="height: 152vh;width: 100vw;background-image: url(/assets/conceito-eclipse-terra-10.webp); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                
+                
+                <div class="text-center mb-5">
+
+                    <h2 class="fw-bolder text-white">Entre em Contato</h2>
+                    <p class="lead mb-0 text-white">Nossa equipe entrará em contato em até 24 horas.</p>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        
+                        <form action="https://api.web3forms.com/submit" method="POST" style="margin: 4rem auto; max-width: 36rem;">
+                            <input type="hidden" name="access_key" value="ad1cc1e6-2175-41b8-adfb-038e084da309">
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; color: #FFF;">
+                              <!-- First Name Input -->
+                              <div>
+                                <label for="first-name" style="font-size: 1.2rem; font-weight: 600;">Nome</label>
+                                <input type="text" name="first-name" id="first-name" autocomplete="given-name" style="width: 100%; border-radius: 0.375rem; border: 1px solid #000; padding: 0.75rem; background-color: rgba(240, 240, 240, 0.5); margin-top: 0.625rem;">
+                              </div>
+                              <!-- Last Name Input -->
+                              <div>
+                                <label for="last-name" style="font-size: 1.2rem; font-weight: 600;">Sobrenome</label>
+                                <input type="text" name="last-name" id="last-name" autocomplete="family-name" style="width: 100%; border-radius: 0.375rem; border: 1px solid #000; padding: 0.75rem; background-color: rgba(240, 240, 240, 0.5); margin-top: 0.625rem;">
+                              </div>
+                              <!-- Company Input -->
+                              <div style="grid-column: 1 / -1;">
+                                <label for="company" style="font-size: 0.875rem; font-weight: 600;">Empresa</label>
+                                <input type="text" name="company" id="company" autocomplete="organization" style="width: 100%; border-radius: 0.375rem; border: 1px solid #000; padding: 0.75rem; background-color: rgba(240, 240, 240, 0.5); margin-top: 0.625rem;">
+                              </div>
+                              <!-- Email Input -->
+                              <div style="grid-column: 1 / -1;">
+                                <label for="email" style="font-size: 0.875rem; font-weight: 600;">Email</label>
+                                <input type="email" name="email" id="email" autocomplete="email" style="width: 100%; border-radius: 0.375rem; border: 1px solid #000; padding: 0.75rem; background-color: rgba(240, 240, 240, 0.5); margin-top: 0.625rem;">
+                              </div>
+                              <!-- Phone Number Input -->
+                              <div style="grid-column: 1 / -1;">
+                                <label for="phone-number" style="font-size: 0.875rem; font-weight: 600;">Número de Telefone</label>
+                                <div style="position: relative; display: flex; gap: 0.5rem; margin-top: 0.625rem;">
+                                  <!-- Country Select -->
+                                  <select name="country" style="flex: 1; border-radius: 0.375rem; border: 1px solid #000; padding: 0.75rem; background-color: rgba(240, 240, 240, 0.5);">
+                                    <option>BR</option>
+                                    <option>US</option>
+                                    <option>Outro</option>
+                                  </select>
+                                  <!-- Phone Input -->
+                                  <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" style="flex: 3; border-radius: 0.375rem; border: 1px solid #000; padding: 0.75rem; background-color: rgba(240, 240, 240, 0.5);">
+                                </div>
+                              </div>
+                              <!-- Message Textarea -->
+                              <div style="grid-column: 1 / -1;">
+                                <label for="message" style="font-size: 0.875rem; font-weight: 600;">Mensagem</label>
+                                <textarea name="message" id="message" rows="4" style="width: 100%; border-radius: 0.375rem; border: 1px solid #000; padding: 0.75rem; background-color: rgba(240, 240, 240, 0.5); margin-top: 0.625rem;"></textarea>
+                              </div>
+                              <!-- Submit Button -->
+                              <div style="grid-column: 1 / -1; text-align: center; margin-top: 1.5rem;">
+                                <button type="submit" id="Sent" style="border: none; padding: 10px 20px; border-radius: 0.375rem; font-weight: 600; cursor: pointer; background: none;">
+                                  <img style="width: 24rem; z-index: 1000;" src="/assets/click_button - ENVIAR.svg" />
+                                </button>
+                              </div>
+                            </div>
+                           
+                          </form>
+                          <div class="text-center">
+                            <a href="https://w.app/B37gJ0" type="image" src="assets/Whatsapp.webp" style="width: 24rem; z-index: 1000; margin-top: 10rem;"><img src="assets/Whatsapp.webp" ></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+           
+            </section>
+
+        <!-- Footer-->
+       
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="https://web3forms.com/client/script.js" async defer"></script>
+        <script src="js/carouselsocial.js"></script>
+        <script> var myCarousel = document.querySelector('#carouselExampleIndicators');
+                  var carousel = new bootstrap.Carousel(myCarousel);
+            </script>
+               <script type="module" src="/js/main.js"></script>
+    </body>
+</html>
